@@ -1,0 +1,165 @@
+
+.fundo {
+    display: flex;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    justify-content: space-around;
+
+}
+
+.titulo {
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    align-items: center; 
+    display: flex;
+ 
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.logo img {
+    
+    height: 100px;
+    width: 100px;
+
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+
+}
+
+.menu p:hover {
+    cursor: pointer;
+    color: beige;
+}
+
+.menu h2 {
+    padding: 20px 30px;
+    background-color: rgb(129, 250, 224);
+    font-family:'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    border-radius: 15px;
+    
+}
+
+.banner img {
+    max-height: 500px;
+    width: 100%;
+   
+}
+
+.curiosidades {
+    background-color: rgb(129, 250, 224);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 30px 0;
+    margin: 10px 0;
+}
+
+.curiosidades h3 , .video h3 {
+    font-size: 45px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.lista   {
+    display: flex;
+    padding: 30px;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    
+}
+
+.lista h2 {
+    background-color: rgb(255, 255, 255);
+    font-size: 25px;
+    letter-spacing: 1.5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 200px;
+    width: 300px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 15px;
+  
+}
+
+.img img {
+    max-height: 500px;
+    width: 100%;
+
+}
+
+.video {
+    font-size: 60px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction:column;
+    justify-content: center;
+    background-color: rgb(129, 250, 224);
+    gap: 20px;
+    text-align: center;
+    margin: 10px 0;
+  
+}
+
+.video p {
+    font-size: 25px;
+    font-family:'Trebuchet MS', sans-serif;
+    letter-spacing: 1.5px;
+    padding: 10px;
+    
+}
+
+.rodape {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px 0;
+    
+}
+
+.icones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+.icones a img {
+    height: 50px;
+    width: 50px;
+    
+}
+
+.direitos {
+    font-size: 15px;
+    font-family:'Trebuchet MS', sans-serif;
+    font-style: italic;
+    height: 50px;
+    padding: 15px;
+}
